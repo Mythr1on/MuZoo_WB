@@ -25,17 +25,19 @@ body {
     margin-left: 5%;
     margin-right: 3%;
 }
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     #img-biomas {
-        width: 90%;
         height: auto;
-        margin-left: 5%;
-        margin-right: 3%;
+        width: 80%;
         border-radius: 30px;
-        margin-top: 0;
-        margin-bottom: 20px; 
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 3%;
     }
 }
+
 /*CAIXA DE TEXTOS INFORMACOES*/
 #img-muzoo {
     height: 450px;
@@ -48,11 +50,13 @@ body {
 
 @media(max-width: 600px) {
     #img-muzoo {
-        width: 90%;
-        height: auto;
-        margin-top: 20px;
-        margin-left: 5%;
-        margin-right: 3%;
+    height: auto;
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-top: 5px;
+    margin-bottom: 20px;
     }
 
 }
@@ -275,6 +279,7 @@ p {
         font-size: 15px;
     }
 }
+
 .caixa-texto-caatinga {
     margin-left: 20px;
     margin-right: 20px;
@@ -289,7 +294,8 @@ p {
     color: black;
     font-size: 17px;
 }
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     .caixa-texto-caatinga {
         margin-left: 5%;
         margin-right: 3%;
@@ -305,6 +311,7 @@ p {
         font-size: 15px;
     }
 }
+
 .caixa-texto-cerrado {
     margin-left: 20px;
     margin-right: 20px;
@@ -319,7 +326,8 @@ p {
     font-size: 17px;
     color: black;
 }
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     .caixa-texto-cerrado {
         margin-left: 5%;
         margin-right: 3%;
@@ -335,6 +343,7 @@ p {
         color: black;
     }
 }
+
 .caixa-texto-pantanal {
     margin-left: 20px;
     margin-right: 20px;
@@ -349,7 +358,8 @@ p {
     font-size: 17px;
     color: white;
 }
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     .caixa-texto-pantanal {
         margin-left: 5%;
         margin-right: 3%;
@@ -365,6 +375,7 @@ p {
         color: white;
     }
 }
+
 .caixa-texto-mata-atlantica {
     margin-left: 20px;
     margin-right: 20px;
@@ -379,7 +390,8 @@ p {
     font-size: 17px;
     color: black;
 }
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     .caixa-texto-mata-atlantica {
         margin-left: 5%;
         margin-right: 3%;
@@ -395,6 +407,7 @@ p {
         color: black;
     }
 }
+
 .caixa-texto-pampa {
     margin-left: 20px;
     margin-right: 20px;
@@ -408,7 +421,8 @@ p {
     text-align: justify;
     font-size: 17px;
 }
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     .caixa-texto-pampa {
         margin-left: 5%;
         margin-right: 3%;
@@ -423,6 +437,7 @@ p {
         font-size: 15px;
     }
 }
+
 .h5_caixa-texto {
     font-size: 30px;
     text-align: center;
@@ -478,7 +493,7 @@ p {
 .tabela_biomas tr:nth-child(even) {
     background-color: #c0bdbd;
 }
- 
+
 /*HEADER*/
 .header {
     min-height: 100vh;
@@ -646,14 +661,15 @@ p {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     .faixa-texto_form {
         background-color: #181818;
         margin-left: 20px;
         margin-right: 20px;
         border-radius: 20px;
     }
-    
+
     .faixa-texto_form h1 {
         margin-top: 10px;
         margin-bottom: 15px;
@@ -664,6 +680,7 @@ p {
         text-transform: uppercase;
     }
 }
+
 .faixa-texto h1 {
     margin-top: 10px;
     margin-bottom: 15px;
@@ -673,7 +690,8 @@ p {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-@media(max-width: 600px){
+
+@media(max-width: 600px) {
     .faixa-texto h1 {
         margin-top: 10px;
         margin-bottom: 15px;
@@ -684,6 +702,7 @@ p {
         text-transform: uppercase;
     }
 }
+
 .row-img {
     overflow: hidden;
     width: 160px;
@@ -723,8 +742,8 @@ p {
 
 @media(max-width: 600px) {
     .row-img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .selet-animais {
@@ -890,6 +909,7 @@ p {
     background-size: cover;
 
 }
+
 .h2_form {
     font-size: 40px;
     letter-spacing: 1px;
@@ -1357,18 +1377,18 @@ button:hover {
 
 @media(max-width: 600px) {
     .caixa-texto {
-        margin-top: 20px;
-        margin-left: 5%;
+        margin-left: 10%;
         margin-right: 3%;
+        margin-top: 20px;
         border-radius: 20px;
         background-color: #CD8A39;
         margin-bottom: 10px;
         text-align: justify;
-        padding-top: 15px;
-        padding-left: 7px;
-        padding-right: 7px;
-        height: 500px;
-        width: 90%;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: auto;
+        width: 80%;
     }
 
     .caixa-texto p {
@@ -1376,18 +1396,18 @@ button:hover {
     }
 
     .caixa-texto2 {
-        margin-top: 20px;
-        margin-left: 5%;
+        margin-left: 10%;
         margin-right: 3%;
+        margin-top: 20px;
         border-radius: 20px;
         background-color: #00bf63;
         margin-bottom: 10px;
         text-align: justify;
-        padding-top: 15px;
-        padding-left: 7px;
-        padding-right: 7px;
-        height: 500px;
-        width: 90%;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: auto;
+        width: 80%;
     }
 
     .caixa-texto2 p {
@@ -1573,96 +1593,113 @@ button:hover {
     text-align: justify;
     margin-left: 10%;
 }
+
 /*FOOTER*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.container2{
-  max-width: 1170px;
-  margin:auto;
+
+.container2 {
+    max-width: 1170px;
+    margin: auto;
 }
-.row2{
-  display: flex;
-  flex-wrap: wrap;
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
 }
-ul{
-  list-style: none;
+
+ul {
+    list-style: none;
 }
-.footer{
-  background-color: #24262b;
+
+.footer {
+    background-color: #24262b;
     padding: 70px 0;
 }
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
 }
-.footer-col h4{
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
-  position: relative;
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
 }
-.footer-col h4::before{
-  content: '';
-  position: absolute;
-  left:0;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
 }
-.footer-col ul li:not(:last-child){
-  margin-bottom: 10px;
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
 }
-.footer-col ul li a{
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  color: #bbbbbb;
-  display: block;
-  transition: all 0.3s ease;
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-  color: #ffffff;
-  padding-left: 8px;
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
 }
-.footer-col .social-links a{
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: rgba(255,255,255,0.2);
-  margin:0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #ffffff;
-  transition: all 0.5s ease;
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
-  color: #24262b;
-  background-color: #ffffff;
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
 }
-.footer-col p{
+
+.footer-col p {
     color: #fff;
     text-align: justify;
 }
+
 /*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
 }
